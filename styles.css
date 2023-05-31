@@ -9,3 +9,9 @@ body {
 h1 { 
     background-color: white;
 }
+:root {
+  --cor-de-fundo: #EBECEE;
+  --branco: #FFFFFF;
+  --laranja: #EB9B00;
+  --azul-degrate: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
