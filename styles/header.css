@@ -28,19 +28,27 @@
    top: 100%;
    width: 60vw;
  }
- .container__botao:checked ~  .lista-menu {
+ .container__botao {
+  display: none;
+ }
+ 
+ .lista-menu {
     display:block;
  }
+
  .lista-menu__titulo {
-  color: var(--laranja);}
+     color: var(--laranja);
+    font-weight: 700;
+    }
+
  .lista-menu__item {
      padding: 1em; 
      background-color: var(--branco);
  }
  .lista-menu__link {
-  background: var(--azul-degrade);
-  -webikit-background-clip: text;
-  -webikit-text-fill-color: transparent;
-  background-clip: text;
-  text-transform: uppercase;
+     background: var(--azul-degrade);
+     -webikit-background-clip: text;
+     -webikit-text-fill-color: transparent;
+      background-clip: text;
+     text-transform: uppercase;
  }

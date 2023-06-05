@@ -5,6 +5,9 @@
 }
 body { 
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-pricipal);
+    font-size: 16px;
+    font-weight: 400;
 }
 h1 { 
     background-color: white;
@@ -14,4 +17,5 @@ h1 {
   --branco: #FFFFFF;
   --laranja: #EB9B00;
   --azul-degrate: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --fonte-pricipal: "Poppins";
 }
