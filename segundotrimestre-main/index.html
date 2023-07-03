@@ -9,36 +9,46 @@
     </head>
  <body> 
   <header class="cabeçalho"> 
-    <div class="container">
+    <div  class="container">
            <input type="checkbox" id="menu" class="container_botao">
            <label for="menu"> 
                <span class="cabeçalho_meu hamburguer container_imagem"></span>
            </label>
                <img src="img/Logo.png" alt="Logo da Alurabooks" class="container_imagem">
     </div>
-      <u1 class="lista-menu">
-      <li class="lista-menu__titulo">Categorias</li>
+
+<u1 class="lista-menu">
+   <li class="lista-menu__titulo">Categorias</li>
       <li class="lista-menu__item">
          <a href="#" class="lista-menu__link">Programação</a>
       </li>
+
       <li class="lista-menu__item">
          <a href="#" class="lista-menu__link">Front-end</a>
       </li>
+
       <li class="lista-menu__item">
          <a href="#" class="lista-menu__link">Infraestrutura</a>
       </li>
+
       <li  class="lista-menu__item">
          <a href="#" class="lista-menu__link">Business</a>
       </li>
+
       <li  class="lista-menu__item">
          <a href="#" class="lista-menu__link">Design & UX</a>
       </li>     
-      </ul>
-    <div class="container">
+</ul>
+<div class="container">
       <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos" class="container_imagem"></a>
       <a href="#"><img src="img/Compras.png" alt="Carrinho de compras" class="container_imagem"></a>
       <a href="#"><img src="img/Usuario.png" alt="Meu perfil" class="container_imagem"></a>
-    </div>
+</div>
+<section class="banner"> 
+   <h2 class="banner__titulo">Já sabe por onde começar? </h2> 
+   <p class="banner__texto"> Encontre em nossa estante o que precisa para seu desenvolvimento! </p>
+   <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+</section>
   </header>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
@@ -46,9 +56,17 @@
     speed: 400,
     spaceBetween: 10,
     slidesPerView: 3,
+    pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    },
   });
 </script>
 </body> 
- </html>
+<div class="swiper">
+   <div class="swiper-pagination"></div>
+   <div class="swiper-wrapper"></div>
+</div>
+</html>
 
  </DOCTYPE>
